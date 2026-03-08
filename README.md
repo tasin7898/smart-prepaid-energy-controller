@@ -1,2 +1,2 @@
 # smart-prepaid-energy-controller
-STM32-based embedded prepaid energy meter with AC RMS measurement, relay control, OLED display, keypad input, SD logging, and UART command interface.
+A university embedded systems project implementing a smart prepaid energy controller on the STM32 microcontroller. The system measures AC voltage and current via ADC sampling (10kHz, DMA), calculates RMS values, power factor, and active/reactive power using zero-crossing detection. Hardware includes a custom op-amp conditioning circuit (offset + gain), MOSFET-driven relay, 4x3 keypad, SSD1306 OLED display, SD card logging, and UART command interface. Full design report included.
