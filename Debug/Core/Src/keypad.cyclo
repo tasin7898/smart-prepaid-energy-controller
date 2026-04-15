@@ -1,0 +1,2 @@
+../Core/Src/keypad.c:27:6:Keypad_Reset	2
+../Core/Src/keypad.c:36:6:Keypad_Scan	8
